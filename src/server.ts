@@ -33,7 +33,7 @@ import {deleteLocalFiles, filterImageFromURL} from './util/util';
 
         // check image_url is set
         if (!image_url) {
-            return res.status(400).send({message: 'image_url is required'});
+            return res.status(400).send({ message: 'image_url is required' });
         }
 
         // Filter the URL and catch errors
